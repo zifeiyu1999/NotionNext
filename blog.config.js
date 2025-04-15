@@ -14,7 +14,7 @@ const BLOG = {
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'ZIYU', // 您的昵称 例如 tangly1024
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '子鱼', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个苦逼的研究生🤨，代码世界的初级玩家，喜欢胡思乱想的家伙。', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://blog.341359.xyz', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '心,史,文,哲', // 网站关键词 英文逗号隔开
