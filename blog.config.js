@@ -18,7 +18,7 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '一个苦逼的研究生🤨，代码世界的初级玩家，喜欢胡思乱想的家伙。', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://blog.341359.xyz', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '心,史,文,哲', // 网站关键词 英文逗号隔开
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://img.341359.xyz/ziyuimg/20250408164922867.jpg', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://9cb854e.webp.li/Blog/blog_logo.jpg', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
 
